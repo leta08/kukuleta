@@ -77,3 +77,65 @@ Yeniden üretmek için: `./build.sh` (Chromium yolu için `CHROME=` değişkeni)
 
 - Görseller temsilîdir; ürün fotoğrafı, inserter ve tel kesiti görselleri üretilmiştir, üreticinin resmi ürün fotoğrafları değildir.
 - Doküman hekime yönelik bilimsel bilgilendirme amaçlıdır; hasta tanıtım materyali değildir.
+
+---
+
+# v2 — güncel sürüm (12 sayfa)
+
+`GoldT_Mini_Hekim_Brosuru_v2.pdf` · kaynak `goldt_v2.html` · `./build.sh goldt_v2.html`
+
+v1'de üstünlükler ve karşılaştırmalar dört sayfaya yayılmıştı. v2 bunları **iki sayfada** toplar ve
+altın çekirdeğe **kendi sayfasını** verir. Sayfa sayısı 16 → 12.
+
+## v2 sayfa planı
+
+| # | Sayfa |
+|---|---|
+| 01 | Kapak |
+| 02 | Gold T Mini nedir — mekanizma, ürün görseli |
+| 03 | Teknik künye ve ürün kodları |
+| 04 | İki boy — Mini / Normal, ölçekli şema |
+| 05 | **Neden altın çekirdek?** (yeni, tek sayfa) |
+| 06 | Yerleştirme sistemi |
+| 07 | **Alternatif yöntemlere karşı** — LNG-RİS, deri altı implant, kombine hap |
+| 08 | **RİA'lar arasında nerede duruyor?** — şekil (Ballerine dâhil), genişlik, bakır yükü |
+| 09 | Güvenlik profili — spontan kırılma + saha güvenlik bildirimi (birleştirildi) |
+| 10 | Kimler için — IVF arası dönem, acil kontrasepsiyon, emzirme, perimenopoz |
+| 11 | Üretici, kalite ve tedarik (birleştirildi) |
+| 12 | Kapanış + kaynakça |
+
+## v1 → v2 değişiklikleri
+
+**Birleştirildi (4 sayfa → 2)**
+- v1'in hormonsuz etki (s.07), klinik fark (s.08), MINI kanıtı (s.09) ve geometri (s.10) sayfaları,
+  v2'de s.07 (yöntem karşılaştırması) ve s.08 (cihaz karşılaştırması) olarak toplandı.
+- Güvenlik s.11 + s.12 → tek sayfa (s.09). Üretici s.14 + tedarik s.15 → tek sayfa (s.11).
+
+**Yeni sayfa 05 — Neden altın çekirdek?**
+- Sorun: kontraseptif etki bakırın korozyonuyla oluşur; tel beş yıl boyunca aşınır ve kırılganlaşır.
+  Bakır telin ikincil fragmentasyonu literatürde bildirilmiştir (Dubovis & Rizk 2020).
+- Emsal: **Nova-T 380'in 0,4 mm bakır telinde 0,1 mm gümüş çekirdek** vardır ve üretici bu çekirdeğin
+  işlevini korozyona bağlı fragmentasyonu önlemek olarak tanımlar. Gold T aynı mimariyi altınla kurar.
+- Altının uygunluğu: soy metal, biyouyumlu, sünek, mekanik süreklilik.
+- Sınırlar: altın kontraseptif etki üretmez; üretici antibakteriyel/tedavi edici iddia bildirmez;
+  "ayar"/"altın halka" benzetmeleri bu ürüne uymaz (tek bir 0,1 mm çekirdek).
+- Gerçek tel kesiti makro görseli ve ölçekli korozyon şeması.
+
+**Yeni sayfa 07 — yöntem karşılaştırması**
+11 satırlık tablo: hormon, süre, başarısızlık, kullanıcı hatası, uygulama, adet paterni,
+US MEC kategorileri (meme kanseri / VTE / auralı migren), emzirme, bırakma nedeni, doğurganlığa dönüş.
+Yanında üç kanıt kutusu — Mørch 2024, Liu 2024 ve üç yöntemi doğrudan karşılaştıran Modesto 2014
+(bakırlı RİA'nın devam oranı en düşük: %73,2 — dürüst karşılaştırma).
+
+**Yeni sayfa 08 — cihaz karşılaştırması**
+- Dört çerçeve geometrisinin ölçekli şeması ve Boehnke 2024 ekspulsiyon aHR'leri:
+  T/Y 1,0× (referans) · çerçevesiz 1,3× · kanatlı 1,6× · **küresel 3,6×**.
+- Ballerine için çelişkili veri açıkça verildi: bağımsız prospektif çalışmada 12 ayda ekspulsiyon
+  **%27 (14/51)** (Wiebe & Trussell 2015), üretici bağlantılı gerçek yaşam çalışmalarında %3,4–5,3.
+- Bakır yükü: Cochrane derlemesi yüksek bakır yüklü cihazların üstünlüğünü gösterir; aynı derleme
+  nullipar kadınlar için hiçbir çerçeveli cihazın üstün olmadığını da belirtir.
+
+**Eklenen kaynaklar (PubMed üzerinden doğrulandı)**
+Kulier 2007 (Cochrane CD005347) · Wiebe & Trussell 2015 · Baram 2019 · Yaron 2019 ·
+Modesto 2014 · Jensen 2022 (Mirena Extension Trial) · Dubovis & Rizk 2020 · Batár 2002 (Nova-T 380) ·
+Gaio 2024 (acil kontrasepsiyon meta-analizi) · Bayer Nova-T 380 ürün bilgisi.
